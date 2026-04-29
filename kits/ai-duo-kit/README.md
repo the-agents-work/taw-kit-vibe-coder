@@ -1,7 +1,17 @@
 # AI Duo Kit
 
 > Workflow cho người không biết code tạo website
-> Dùng được với: ChatGPT, Gemini, hoặc bất kỳ AI chat nào
+
+## Chọn mode phù hợp
+
+| Mode | Mô tả | Chi phí |
+|------|-------|---------|
+| **[Yolo Mode](yolo-mode.md)** | Chỉ dùng Claude Code, không copy paste | $20/tháng |
+| **[Duo Mode](#duo-mode)** | ChatGPT/Gemini + Claude Code | $40/tháng |
+
+---
+
+## Duo Mode
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -59,6 +69,7 @@ Kết hợp = non-tech user chỉ cần mô tả, không cần biết code!
 
 | File | Mục đích |
 |------|----------|
+| `yolo-mode.md` | **Mode 1 AI** - chỉ Claude Code, không copy paste |
 | `pm-prompt.md` | Prompt cho AI PM (ChatGPT/Gemini) |
 | `claude-code-setup.md` | Hướng dẫn setup Claude Code |
 | `supabase-guide.md` | Hướng dẫn database (khi cần) |
